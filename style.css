@@ -1,4 +1,10 @@
 /* Base body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
@@ -55,7 +61,6 @@ section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.0em;
     color: #444;
-    margin-top: 0; /* Removed top margin to bring sections closer to the main header */
     margin-bottom: 15px; /* Reduced space below h2 headers */
     padding-bottom: 5px;
     border-bottom: 3px solid #ddd;

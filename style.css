@@ -92,3 +92,24 @@ section ul li {
 html {
     scroll-behavior: smooth;
 }
+
+.research-subsection {
+    margin-top: 20px;
+}
+
+.research-subsection h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-size: 1.6em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.research-subsection ul {
+    padding-left: 20px;
+}
+
+.research-subsection ul li {
+    margin-bottom: 10px;
+}

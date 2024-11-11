@@ -55,8 +55,8 @@ section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.0em;
     color: #444;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
     padding: 10px 0; /* Adds space within the header */
     margin: 20px auto; /* Centers the h2 and adds space around it */
     text-align: center;

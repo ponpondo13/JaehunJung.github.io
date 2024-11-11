@@ -70,14 +70,14 @@ section h2 {
     border-bottom: 1px solid #ddd;
 }
 
-/* List styling */
-section ul, .research-subsection ul {
+/* Consistent List styling for all sections */
+ul {
     padding-left: 20px;
     margin-top: 0;
 }
 
-section ul li, .research-subsection ul li {
-    margin-bottom: 15px; /* Consistent space between list items */
+ul li {
+    margin-bottom: 10px; /* Consistent space between list items across all sections */
 }
 
 /* Styling for additional section within Research */

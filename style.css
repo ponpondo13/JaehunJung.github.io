@@ -1,46 +1,33 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Base body styling */
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
     line-height: 1.6;
     padding: 20px;
-}
-
-/* Apply Montserrat to header elements */
-header h1, nav a, section h2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.left-align {
     text-align: left;
+}
+
+/* Header adjustments */
+header {
+    text-align: center;
+    margin-bottom: 50px; /* Increased margin for better separation */
 }
 
 header h1 {
     font-size: 2.5em;
-    text-align: center;
-    color: #222;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px; /* Adds space below main heading */
 }
 
 header p {
     font-size: 1.2em;
     color: #666;
+    margin-bottom: 20px; /* Adds space below sub-heading */
 }
 
-/* Navigation */
+/* Navigation styling */
 nav {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Space below navigation */
 }
 
 nav a {
@@ -54,63 +41,63 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Sections */
+/* Section styling */
 section {
     max-width: 800px;
-    margin: 20px auto;
-    padding: 10px;
+    margin: 40px auto; /* Increased top and bottom margins for separation */
+    padding: 20px;
     border-bottom: 1px solid #ddd;
 }
 
-section#home h1 {
-    font-size: 2.5em;
-    text-align: center;
-    color: #222;
-}
-
+/* Section headings (h2) */
 section h2 {
-    font-size: 2.0em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
     color: #444;
-    margin-bottom: 50px;
-    padding-bottom: 30px;
-}
-
-section p, section ul {
-    font-size: 1em;
-    color: #555;
-    line-height: 1.6;
-    margin-top: 0px;
-}
-
-section ul li {
-    margin-bottom: 10px;
-}
-
-#home p {
-    text-align: center;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.research-subsection {
-    margin-top: 0px;
-}
-
-.research-subsection h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #444;
-    font-size: 1.2em;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px; /* Consistent space below h2 headers */
     padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Research subsection headings (h3) */
+.research-subsection h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 30px; /* Adds space above subsection headers */
+    margin-bottom: 15px; /* Space below each subsection heading */
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* List styling */
+section ul, .research-subsection ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+section ul li, .research-subsection ul li {
+    margin-bottom: 15px; /* Consistent space between list items */
+}
+
+/* Styling for additional section within Research */
+.additional-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #0073e6;
+}
+
+.additional-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
     margin-bottom: 10px;
 }
 
-.research-subsection ul {
-    padding-left: 0px;
+.additional-section ul {
+    padding-left: 20px;
 }
 
-.research-subsection ul li {
-    margin-bottom: 0px;
+.additional-section ul li {
+    margin-bottom: 10px;
 }

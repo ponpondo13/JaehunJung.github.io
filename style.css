@@ -63,7 +63,7 @@ section h2 {
 /* Research subsection headings (h3) */
 .research-subsection h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #444;
     margin-top: 20px; /* Reduced space above subsection headers */
     margin-bottom: 10px; /* Reduced space below each subsection heading */
@@ -82,23 +82,3 @@ ul li {
 }
 
 /* Styling for additional section within Research */
-.additional-section {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-left: 3px solid #0073e6;
-}
-
-.additional-section h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #444;
-    margin-bottom: 10px;
-}
-
-.additional-section ul {
-    padding-left: 20px;
-}
-
-.additional-section ul li {
-    margin-bottom: 0px;
-}

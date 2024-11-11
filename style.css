@@ -4,14 +4,14 @@ body {
     color: #333;
     line-height: 1.6;
     margin: 0; /* Removes any default margin */
-    padding: 5px 15px;
+    padding: 5px 5px;
     text-align: left;
 }
 
 /* Header adjustments */
 header {
     text-align: center;
-    margin-bottom: 20px; /* Reduced margin to bring the sections closer */
+    margin-bottom: 10px; /* Reduced margin to bring the sections closer */
 }
 
 header h1 {

@@ -78,7 +78,7 @@ section p, section ul {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 section ul li {
@@ -100,7 +100,7 @@ html {
 .research-subsection h3 {
     font-family: 'Roboto', sans-serif;
     color: #444;
-    font-size: 1.6em;
+    font-size: 1.2em;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 30px;

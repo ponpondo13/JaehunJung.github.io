@@ -29,6 +29,8 @@ header p {
 nav {
     text-align: center;
     margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
 nav a {

@@ -63,3 +63,7 @@ section ul li {
 #home p {
     text-align: center;
 }
+
+html {
+    scroll-behavior: smooth;
+}

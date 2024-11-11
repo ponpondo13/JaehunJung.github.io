@@ -71,7 +71,7 @@ section#home h1 {
 section h2 {
     font-size: 1.8em;
     color: #444;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 section p, section ul {
@@ -94,7 +94,7 @@ html {
 }
 
 .research-subsection {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .research-subsection h3 {

@@ -10,7 +10,7 @@ body {
 /* Header adjustments */
 header {
     text-align: center;
-    margin-bottom: 50px; /* Increased margin for better separation */
+    margin-bottom: 20px; /* Reduced margin to bring the sections closer */
 }
 
 header h1 {
@@ -21,13 +21,13 @@ header h1 {
 header p {
     font-size: 1.2em;
     color: #666;
-    margin-bottom: 20px; /* Adds space below sub-heading */
+    margin-bottom: 10px; /* Reduced space below sub-heading */
 }
 
 /* Navigation styling */
 nav {
     text-align: center;
-    margin-bottom: 30px; /* Space below navigation */
+    margin-bottom: 20px; /* Reduced space below navigation */
 }
 
 nav a {
@@ -44,7 +44,7 @@ nav a:hover {
 /* Section styling */
 section {
     max-width: 800px;
-    margin: 40px auto; /* Increased top and bottom margins for separation */
+    margin: 20px auto; /* Reduced top margin for closer proximity to the header */
     padding: 20px;
     border-bottom: 1px solid #ddd;
 }
@@ -54,7 +54,8 @@ section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8em;
     color: #444;
-    margin-bottom: 20px; /* Consistent space below h2 headers */
+    margin-top: 0; /* Removed top margin to bring sections closer to the main header */
+    margin-bottom: 15px; /* Reduced space below h2 headers */
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
 }
@@ -64,8 +65,8 @@ section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: #444;
-    margin-top: 30px; /* Adds space above subsection headers */
-    margin-bottom: 15px; /* Space below each subsection heading */
+    margin-top: 20px; /* Reduced space above subsection headers */
+    margin-bottom: 10px; /* Reduced space below each subsection heading */
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
 }
@@ -99,5 +100,5 @@ ul li {
 }
 
 .additional-section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }

@@ -3,7 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
+    margin: 0; /* Removes any default margin */
+    padding: 10px 20px;
     text-align: left;
 }
 
@@ -78,7 +79,7 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px; /* Consistent space between list items across all sections */
+    margin-bottom: 0px; /* Consistent space between list items across all sections */
 }
 
 /* Styling for additional section within Research */

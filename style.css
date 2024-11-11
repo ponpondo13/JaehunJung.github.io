@@ -22,7 +22,7 @@ header h1 {
 header p {
     font-size: 1.2em;
     color: #666;
-    margin-bottom: 10px; /* Reduced space below sub-heading */
+    margin-bottom: 0px; /* Reduced space below sub-heading */
 }
 
 /* Navigation styling */

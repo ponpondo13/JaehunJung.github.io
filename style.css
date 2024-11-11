@@ -53,7 +53,7 @@ section {
 /* Section headings (h2) */
 section h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
+    font-size: 2.0em;
     color: #444;
     margin-top: 0; /* Removed top margin to bring sections closer to the main header */
     margin-bottom: 15px; /* Reduced space below h2 headers */
@@ -69,7 +69,6 @@ section h2 {
     margin-top: 20px; /* Reduced space above subsection headers */
     margin-bottom: 10px; /* Reduced space below each subsection heading */
     padding-bottom: 5px;
-    padding-left: 10px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -83,8 +82,8 @@ ul li {
     margin-bottom: 0px; /* Consistent space between list items across all sections */
 }
 
-#research ul li {
-    padding-left: 50px; /* Increased indent for Research items */
+#research ul {
+    padding-left: 30px; /* Increased indent for Research items */
     margin-left: 0;
 }
 /* Styling for additional section within Research */

@@ -69,9 +69,10 @@ section#home h1 {
 }
 
 section h2 {
-    font-size: 1.8em;
+    font-size: 2.0em;
     color: #444;
     margin-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 section p, section ul {
@@ -111,5 +112,5 @@ html {
 }
 
 .research-subsection ul li {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }

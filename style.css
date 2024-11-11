@@ -15,7 +15,7 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    margin-bottom: 10px; /* Adds space below main heading */
+    margin-bottom: 0px; /* Adds space below main heading */
 }
 
 header p {

@@ -1,10 +1,9 @@
 /* Base body styling */
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
     line-height: 1.6;
-    margin: 0; /* Removes any default margin */
+    margin: 0;
     padding: 5px 5px;
     text-align: left;
 }
@@ -12,24 +11,24 @@ body {
 /* Header adjustments */
 header {
     text-align: center;
-    margin-bottom: 10px; /* Reduced margin to bring the sections closer */
+    margin-bottom: 10px;
 }
 
 header h1 {
     font-size: 2.5em;
-    margin-bottom: 0px; /* Adds space below main heading */
+    margin-bottom: 0;
 }
 
 header p {
     font-size: 1.2em;
     color: #666;
-    margin-bottom: 0px; /* Reduced space below sub-heading */
+    margin-bottom: 0;
 }
 
 /* Navigation styling */
 nav {
     text-align: center;
-    margin-bottom: 20px; /* Reduced space below navigation */
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -46,7 +45,7 @@ nav a:hover {
 /* Section styling */
 section {
     max-width: 800px;
-    margin: 20px auto; /* Reduced top margin for closer proximity to the header */
+    margin: 20px auto;
     padding: 20px;
     border-bottom: 3px solid #ddd;
 }
@@ -55,11 +54,12 @@ section {
 section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.0em;
+    color: #444;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    color: #444;
-    margin-bottom: 15px; /* Reduced space below h2 headers */
-    padding-bottom: 5px;
+    padding: 10px 0; /* Adds space within the header */
+    margin: 20px 0; /* Adjusted spacing around h2 headers */
+    text-align: center;
 }
 
 /* Research subsection headings (h3) */
@@ -67,30 +67,35 @@ section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     color: #444;
-    margin-top: 20px; /* Reduced space above subsection headers */
-    margin-bottom: 10px; /* Reduced space below each subsection heading */
+    margin-top: 15px; /* Reduced space above subsection headers */
+    margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
 }
 
-/* Consistent List styling for all sections */
-ul {
+/* List styling for Education section */
+#education ul {
     padding-left: 20px;
-    margin-top: 0;
+    margin: 0;
 }
 
-ul li {
-    margin-bottom: 0px; /* Consistent space between list items across all sections */
+#education ul li {
+    margin-bottom: 10px; /* Consistent space between list items in Education */
 }
 
+/* List styling for Research section */
 #research ul {
-    padding-left: 30px; /* Increased indent for Research items */
-    margin-left: 0;
+    padding-left: 40px; /* Increased indent for Research items */
+    margin: 0;
 }
 
-.section-content {
-    margin: 0 auto; /* Centers content if the width is less than 100% */
-    padding: 0 100px; /* Adds left and right padding */
-    max-width: 800px; /* Optional: limits content width */
+#research ul li {
+    margin-bottom: 10px; /* Consistent space between list items in Research */
 }
-/* Styling for additional section within Research */
+
+/* Content wrapper */
+.section-content {
+    margin: 0 auto;
+    padding: 0 50px; /* Adds left and right padding */
+    max-width: 800px;
+}

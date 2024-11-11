@@ -45,7 +45,7 @@ nav a:hover {
 /* Section styling */
 section {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px auto; /* Center the section */
     padding: 20px;
     border-bottom: 3px solid #ddd;
 }
@@ -58,8 +58,9 @@ section h2 {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px 0; /* Adds space within the header */
-    margin: 20px 0; /* Adjusted spacing around h2 headers */
+    margin: 20px auto; /* Centers the h2 and adds space around it */
     text-align: center;
+    max-width: 600px; /* Optional: to control width of lines */
 }
 
 /* Research subsection headings (h3) */
@@ -67,7 +68,7 @@ section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     color: #444;
-    margin-top: 15px; /* Reduced space above subsection headers */
+    margin-top: 15px;
     margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
@@ -85,7 +86,7 @@ section h2 {
 
 /* List styling for Research section */
 #research ul {
-    padding-left: 40px; /* Increased indent for Research items */
+    padding-left: 30px; /* Increased indent for Research items */
     margin: 0;
 }
 

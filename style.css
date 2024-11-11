@@ -1,9 +1,4 @@
 /* Base body styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -60,10 +55,11 @@ section {
 section h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.0em;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     color: #444;
     margin-bottom: 15px; /* Reduced space below h2 headers */
     padding-bottom: 5px;
-    border-bottom: 3px solid #ddd;
 }
 
 /* Research subsection headings (h3) */
@@ -90,5 +86,11 @@ ul li {
 #research ul {
     padding-left: 30px; /* Increased indent for Research items */
     margin-left: 0;
+}
+
+.section-content {
+    margin: 0 auto; /* Centers content if the width is less than 100% */
+    padding: 0 100px; /* Adds left and right padding */
+    max-width: 800px; /* Optional: limits content width */
 }
 /* Styling for additional section within Research */
